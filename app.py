@@ -73,7 +73,7 @@ for _, row in data.iterrows():
     ).add_to(marker_cluster)
 
 # Render the map inside a div that makes it fullscreen
-st.write("Map displaying all IPs in the dataset:")
+st.write("Map displaying all IPs in the dataset::")
 folium_static(map_object, height=800)
 
 # Optional: Add map legend below (uncomment if needed)
